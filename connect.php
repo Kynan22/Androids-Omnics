@@ -1,10 +1,9 @@
 <?php
-$hostname = 'mysql.cs.rmit.edu.au:4022';
-$username = 's3725337';
-$password = 'P4ReoqHj';
-$dbname = 's3725337';
+$servername = 'localhost';
+$username = 'username';
+$password = 'password';
 
-$connection = mysqli_connect($hostname, $username, $password, $dbname)
+$connection = mysqli_connect($servername, $username, $password)
 or die(mysqli_connect_error());
 
 //if($connection) {

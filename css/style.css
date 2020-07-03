@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+*{
+    font-family: 'Play', sans-serif;
+}
+body {
+    background-color: #bababa;
+}
+.navdiv img{
+    width: 70px;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top:-5%;
+}
+section {
+    width:350px;
+    height: auto;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+}
+#modifyphones img{
+    width: 280px;
+    height: auto;
+}
+#modifyphones table{
+    width: 100%;
+    height: auto;
+}
+.modify{
+    padding: 10px;
+    vertical-align: top;
+    margin-top: 1%;
+}
+#phones img:hover{
+    opacity: 0.3;
+}
+#phones img{
+    width: 280px;
+    height: auto;
+}
+#details img{
+    width: 280px;
+    height: auto;
+}
+#description{
+    padding-top: 5px;
+}
+#details{
+    text-align: center;
+    margin-top: 10%;
+}
+#readmore{
+    margin-bottom: 10%;
+}
+#phones{
+    margin-top: 11%;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #515151;
+    padding-bottom: 40px;
+    z-index: 10;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    color: #E0E0E0;
+    font-weight: 100;
+    padding: 5px;
+    letter-spacing: 0.5em;
+}
+.navbar a{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+
+}
+.navbar a:hover{
+    color: #13A8B2;
+}
+.navbar{
+    text-align: center;
+    margin-right: 15%;
+}
+.search{
+    margin-left: 70%;
+    margin-top: -35px;
+    border:none;
+}
+nav ul li{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #C7700F;
+    font-weight: bold;
+}
+label {
+    float:left;
+    width: 140px;
+}
+.insert form {
+    width:40%;
+    float: left;
+}
+.insert fieldset {
+    padding:30px;
+}
+#insert{
+    margin-top: 12%;
+}
+#modifyconfirm div{
+    margin-top: 12%;
+    text-align: center;
+}
+#modifyconfirm p{
+    text-align: left;
+}
+.confirm {
+    font-weight: bold;
+}
+.infotext{
+    font-weight: bold;
+}
+
+/* The dropdown container */
+#dropdown {
+    overflow: hidden;
+}
+
+/* Dropdown button */
+#dropdown {
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #515151;
+    max-width: fit-content;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 52.2%;
+    border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+#dropdown:hover .dropdown-content {
+    display: block;
+}
